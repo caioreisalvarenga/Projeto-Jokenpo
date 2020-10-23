@@ -1,0 +1,107 @@
+* {
+    font-family: Helvetica, Arial;
+    font-weight: 400;
+    cursor: default;
+}
+
+#principal{
+
+}
+
+#text{
+    text-align: center;
+    color: #2d3436;
+}
+
+#placar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+#jogador, #computador {
+    flex-grow: 1;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+}
+
+#jogador h2, #computador h2 {
+    margin: 0;
+    padding: 0;
+}
+
+#jogador {
+    background-color: #e74c3c;
+}
+
+#jogador-nome, #computador-nome{
+    font-size: 24px;
+}
+
+#computador-nome {
+    text-align: right;
+}
+
+#jogador-pontos, #computador-pontos {
+    position: absolute;
+    top: 8px;
+    font-size: 52px;
+}
+
+#jogador-pontos {
+    right: 20px;
+}
+
+#mensagem{
+    text-align: center;
+    background-color: #636f74;
+    border-radius: 5px;
+    margin: 20px 0px;
+    padding: 30px;
+    font-size: 24px;
+    color: white;
+}
+
+#jogador ul {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#jogador #jogador-escolha, #computador #computador-escolha {
+    list-style: none;
+    margin: 30px 0px 0px 0px;
+    padding: 0;
+}
+
+#jogador #jogador-escolha li, #computador #computador-escolha li{
+    display: inline;
+    padding: 0 15px;
+}
+
+#jogador #jogador-escolha a, #computador #computador-escolha a {
+    opacity: .2;
+}
+
+#jogador #jogador-escolha a:hover,
+#jogador #jogador-escolha a.selecionado, #computador #computador-escolha a.selecionado
+{
+    opacity: 1;
+}
+
+#jogador #jogador-escolha img, #computador #computador-escolha img {
+    max-width: 80px;
+}
+
+#versus{
+    font-size: 80px;
+    padding: 0 40px;
+    color: black;
+}
+
+#computador{
+    background-color: #3498db;
+}
